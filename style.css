@@ -1,0 +1,29 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #fab1e1;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(250, 177, 225, 1), rgba(176, 226, 247, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(250, 177, 225, 1), rgba(176, 226, 247, 1))
+    }
+
+body {
+    background-color: #fbfbfb;
+  }
+ 
+  #logoutbtn {
+    position: fixed; top: 20px; right: 20px;
+    background-color: red; 
+    border: #ed1fa8;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  }
+
+  button {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  }
+
+  #file {
+    width: 500px;
+  }

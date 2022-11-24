@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit file</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+
+  <main style="margin-top: 50px; margin-left: 20px;">
+    <div class="container pt-4">
+
+        <button type="button" class="btn btn-primary" id="logoutbtn" onclick="logout()">Log out</button>
+    
+        <div style="margin-left: 55px;">
+            <h2>Submit File</h2>
+            <!--S <label class="form-label" for="customFile">Default file input example</label> -->
+            <br>
+            <li>Submitted file must be image file with .JPEG or .JPG extension</li>
+            <li>File size must not exceed 50KB</li>
+            <li>Image dimension must not exceed 200x200 pixels</li>
+            <br> <br>
+            <input type="file" class="form-control" id="file" />
+            <div style="margin-top: 30px; margin-left: 150px;">
+                <button type="button" class="btn btn-primary" id="submitbtn" style="background-color: #fab1e1; border: #ed1fa8;"
+                onclick="upload(file)">Submit</button>
+            </div>
+            
+        </div>
+        
+    </div>
+  </main>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="./submit.js"></script>
+</body>
+</html>
